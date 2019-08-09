@@ -63,7 +63,7 @@ function main() {
     }
   }
   image.pack().pipe(fs.createWriteStream(argv.output));
-  console.log(`Output colormap to ${argv.output}`);
+  console.log(`Converted ${colormapPath} to ${argv.output}`);
 }
 
 function parseColormap(colormapPath) {
