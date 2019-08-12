@@ -21,3 +21,12 @@ Options:
   --output    Output path.           [string] [required] [default: "output.png"]
   --help      Show help                                                [boolean]
 ```
+
+
+## TODO
+-----
+* Add additional interpolation variations
+* Support additional colorspaces
+* Convert png to colormap array
+* Support rotated image with autodetection for image input
+* Support jpg, svg (using linearGradient), ...
