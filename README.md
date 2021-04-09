@@ -1,15 +1,13 @@
-# Colormap-To-Image
+# Colormap To Image
 Converts RGB array colormaps into PNG images.
 
-# Usage
----------
+## Usage
 * Install node and npm.
 * Clone repo.
 * Run `npm ci` to install dependencies.
 * Copy your colormap to colormap.txt.
 * Run `node arrayToColormap.js --help` to see available options.
 
----------
 ```bash
 $ node arrayToColormap.js --help
 Options:
@@ -24,7 +22,6 @@ Options:
 
 
 ## TODO
------
 * Add additional interpolation variations
 * Support additional colorspaces
 * Convert png to colormap array
